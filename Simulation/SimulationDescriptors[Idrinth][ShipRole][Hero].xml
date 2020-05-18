@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ShipRoleHero" Type="ShipRole">
+        <Modifier TargetProperty="CommandPoints"                Operation="Force"    Value="0"     Path="ClassShip"/>
+        <Modifier TargetProperty="VisualImportanceScore"        Operation="Addition" Value="200"   Path="ClassShip"/>
+        <Modifier TargetProperty="NetShipProbe"                 Operation="Addition" Value="0.5"   Path="ClassShip"/>
+        <Modifier TargetProperty="ExperienceBonusFromBattle"    Operation="Addition" Value="10"     Path="ClassShip"/>
+        <!-- Added -->
+        <Modifier TargetProperty="SiegePower" Operation="Addition" Value="1" Path="../ClassGarrisonFleet" Priority="19"/>
+        <Modifier TargetProperty="RootingIncreasePerTurn" Operation="Addition" Value="0.01" Path="../ClassGarrisonFleet" Priority="19"/>
+        <Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassShip" Priority="19"/>
+    </SimulationDescriptor>
+</Datatable>

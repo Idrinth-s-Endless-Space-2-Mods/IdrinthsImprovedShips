@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	<SimulationDescriptor Type="ModuleLogistics" Name="ModuleLogistics">
+		<Property Name="SystemGrowthTransferredPerTurn" BaseValue="0"/>
+		<Property Name="EmpireMoneyTransferredPerTurn" BaseValue="0"/>
+		<Property Name="EmpireEmpirePointTransferredPerTurn" BaseValue="0"/>
+		<Property Name="OpponentRecyclingEssencePerCP" BaseValue="0"/>
+		<!-- For tooltip -->
+		<Property Name="LifeforceLeechedPerTurn" BaseValue="0"/>
+		<!-- Added -->
+		<Property Name="SiegePower" BaseValue="0"/>
+		<Property Name="RepairAfterPhase" BaseValue="0"/>
+
+		<Modifier Value="$(Multiplier)" Operation="Multiplication" TargetProperty="SystemGrowthTransferredPerTurn" Priority="2"/>
+		<BinaryModifier Operation="Addition" TargetProperty="LifeforceLeechedPerTurn" Right="2.5" BinaryOperation="Multiplication" Left="$(SystemGrowthTransferredPerTurn)"/>
+		<Modifier Value="$(EmpireMoneyTransferredPerTurn)" Operation="Addition" TargetProperty="LifeforceLeechedPerTurn"/>
+		<Modifier Value="$(EmpireEmpirePointTransferredPerTurn)" Operation="Addition" TargetProperty="LifeforceLeechedPerTurn"/>
+		<Modifier Value="$(OpponentRecyclingEssencePerCP)" Operation="Addition" TargetProperty="OpponentRecyclingEssencePerCP" Path="../ClassShip"/>
+		<!-- Added -->
+		<BinaryModifier Operation="Addition" TargetProperty="SiegePower" Right="0.025" BinaryOperation="Multiplication" Left="$(LifeforceLeechedPerTurn)"/>
+		<BinaryModifier Path="ClassModule" Right="0.0005" BinaryOperation="Multiplication" Left="$(LifeforceLeechedPerTurn)" Operation="Addition" TargetProperty="RepairAfterPhase"/>
+
+		<Modifier Path="../ClassShip" Value="0.075" Operation="Percent" TargetProperty="DefensiveMilitaryPower"/>
+		<Modifier Path="../ClassShip" Value="$(RepairAfterPhase)" Operation="Addition" TargetProperty="RepairAfterPhase"/>
+		<Modifier Path="../ClassShip" Value="$(SiegePower)" Operation="Addition" TargetProperty="SiegePower"/>
+	</SimulationDescriptor>
+</Datatable>

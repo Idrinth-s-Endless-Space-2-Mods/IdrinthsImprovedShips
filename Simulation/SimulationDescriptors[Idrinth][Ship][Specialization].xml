@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ShipStatBonus1TargetingFocus" Type="ShipStatBonus1">
+        <!-- Added -->
+        <Modifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition"  Value="0.05"  Path="ClassShip"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus1TargetingAttract" Type="ShipStatBonus1">
+        <!-- Added -->
+        <Modifier TargetProperty="Evasion" Operation="Addition" Value="0.05" Path="ClassShip" />
+        <Modifier TargetProperty="RepairAfterPhase" Operation="Addition" Value="0.025" Path="ClassShip" />
+        <Modifier TargetProperty="TargetingWeightBonus" Operation="Addition" Value="0.5" Path="ClassShip" />
+        <Modifier TargetProperty="TargetingWeightBonus" Operation="Percent" Value="0.05" Path="ClassShip" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipStatBonus2Offensive" Type="ShipStatBonus2">
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleWeapon,!ClassModuleWeaponFlack" />
+        <!-- Added -->
+        <Modifier TargetProperty="SiegePower" Operation="Addition" Value="1" Path="ClassShip" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2OffensiveHunter" Type="ShipStatBonus2">
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.2" Path="ClassShip/ClassSection/ClassModuleWeapon,!ClassModuleWeaponFlack" />
+        <!-- Added -->
+        <Modifier TargetProperty="Accurary" Operation="Percent" Value="0.05" Path="ClassShip/ClassSection/ClassModuleWeapon,!ClassModuleWeaponFlack" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2Defensive" Type="ShipStatBonus2">
+        <Modifier TargetProperty="ShieldAbsorption" Operation="Percent" Value="0.1" Path="ClassShip" />
+        <Modifier TargetProperty="HullPlatingAbsorption" Operation="Percent" Value="0.1" Path="ClassShip" />
+        <!-- Added -->
+        <Modifier TargetProperty="ShieldAbsorption" Operation="Addition" Value="1" Path="ClassShip" />
+        <Modifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Value="2" Path="ClassShip" />
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.05" Path="ClassShip/ClassSection" />
+        <Modifier TargetProperty="MaximumHealth" Operation="Addition" Value="25" Path="ClassShip/ClassSection" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipStatBonus2EnergyWeapons" Type="ShipStatBonus2">
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponLaser" />
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponBeam" />
+        <!-- Added -->
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.025" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponLaser" />
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.025" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponBeam" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2PhysicalWeapons" Type="ShipStatBonus2">
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponKinetic" />
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponMissile" />
+        <!-- Added -->
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.025" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponKinetic" />
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.025" Path="ClassShip/ClassSection/ClassModuleWeapon,ClassModuleWeaponMissile" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2EnergyDefense" Type="ShipStatBonus2">
+        <Modifier TargetProperty="ShieldAbsorption" Operation="Percent" Value="0.1" Path="ClassShip" />
+        <!-- Added -->
+        <Modifier TargetProperty="ShieldAbsorption" Operation="Addition" Value="1" Path="ClassShip" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2PhysicalDefense" Type="ShipStatBonus2">
+        <Modifier TargetProperty="HullPlatingAbsorption" Operation="Percent" Value="0.1" Path="ClassShip" />
+        <!-- Added -->
+        <Modifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Value="2" Path="ClassShip" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus1Movement" Type="ShipStatBonus1">
+        <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassShip"/>
+        <!-- Added -->
+        <Modifier TargetProperty="MaximumMovement" Operation="Percent" Value="0.1" Path="ClassShip"/>
+        <Modifier TargetProperty="Evasion" Operation="Addition" Value="0.05" Path="ClassShip"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus1Movement2" Type="ShipStatBonus1">
+        <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="ClassShip"/>
+        <!-- Added -->
+        <Modifier TargetProperty="MaximumMovement" Operation="Percent" Value="0.25" Path="ClassShip"/>
+        <Modifier TargetProperty="Evasion" Operation="Addition" Value="0.075" Path="ClassShip"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipStatBonus1SquadronHealth" Type="ShipStatBonus1">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleSquadron"/>
+        <Modifier TargetProperty="MaximumHealth" Operation="Power" Value="0.1" Path="ClassShip//ClassModuleSquadronEncounter" TooltipHidden="true"/>
+        <!-- Added -->
+        <Modifier TargetProperty="SiegePower" Operation="Addition" Value="0.5" Path="ClassShip" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ShipStatBonus2SquadronDamage" Type="ShipStatBonus2">
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.1" Path="ClassShip/ClassSection/ClassModuleSquadron"/>
+        <!-- Added -->
+        <Modifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Percent"  Value="0.025"  Path="ClassShip"/>
+    </SimulationDescriptor>
+</Datatable>

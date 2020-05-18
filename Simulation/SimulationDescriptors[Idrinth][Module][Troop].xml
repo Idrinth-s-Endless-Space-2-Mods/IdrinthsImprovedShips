@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew">
+		<Property Name="LocalManpower"/>
+		<Property Name="AdditionalGroundBattleManpowerLimit"/>
+		<Property Name="ShipManpowerKillAbsorption"/>
+		<Modifier Value="$(Multiplier)" Operation="Multiplication" TargetProperty="LocalManpower" TooltipHidden="true"/>
+		<Modifier Value="$(Multiplier)" Operation="Multiplication" TargetProperty="AdditionalGroundBattleManpowerLimit" TooltipHidden="true"/>
+		<Modifier Priority="1" Path="../ClassShip" Value="$(LocalManpower)" Operation="Addition" TargetProperty="MaximumShipManpower"/>
+		<Modifier Priority="1" Path="../ClassGarrison,ClassGarrisonFleet" Value="$(AdditionalGroundBattleManpowerLimit)" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<Modifier Priority="1" Path="../ClassShip" Value="$(ShipManpowerKillAbsorption)" Operation="Addition" TargetProperty="ShipManpowerKillAbsorption"/>
+		<!-- Addition -->
+		<Modifier Path="../ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+		<Modifier Path="../ClassShip" Value="0.01" Operation="Percent" TargetProperty="MaximumShipManpower"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew1">
+		<Modifier Path="ClassModule" Value="50" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="50" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="25" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew2">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="100" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="50" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew2Strategic3">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="150" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="75" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<Modifier Path="ModuleSupportCrew" Value="0.15" Operation="Addition" TargetProperty="ShipManpowerKillAbsorption"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew3">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="200" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="75" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew3Cravers">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="200" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="125" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew3Terrans">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="250" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="100" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew4">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="250" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="100" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew4Cravers">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="300" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="150" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Type="ModuleSupportCrew" Name="ModuleSupportCrew4Strategic6">
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+		<Modifier Path="ModuleSupportCrew" Value="300" Operation="Addition" TargetProperty="LocalManpower"/>
+		<Modifier Path="ModuleSupportCrew" Value="125" Operation="Addition" TargetProperty="AdditionalGroundBattleManpowerLimit"/>
+		<Modifier Path="ModuleSupportCrew" Value="0.3" Operation="Addition" TargetProperty="ShipManpowerKillAbsorption"/>
+		<!-- Addition -->
+		<Modifier Path="ClassModule" Value="100" Operation="Addition" TargetProperty="SectionHealthBonus"/>
+	</SimulationDescriptor>
+</Datatable>

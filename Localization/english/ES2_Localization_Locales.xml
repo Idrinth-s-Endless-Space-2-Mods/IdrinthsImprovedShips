@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- SCIENCE -->
+  <LocalizationPair Name="%EmpireImprovementStageScienceAndExploration2Title">Better Communication</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageScienceAndExploration2Description">Improvements in communication measures increase the maximum number of ships that can be coordinated within a unit.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageScienceAndExploration5Title">Better Communication</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageScienceAndExploration5Description">Improvements in communication measures increase the maximum number of ships that can be coordinated within a unit.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageScienceAndExploration5EffectOverride">-</LocalizationPair>
+
+  <!--Economy -->
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade1Title">Improved Scavenging</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade1Description">Improvements in scavenging technologies may even yield some gains from the most devastating battle, even if they can't completely pay for the losses of such battles.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade2Title">Improved Scavenging</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade2Description">Improvements in scavenging technologies may even yield some gains from the most devastating battle, even if they can't completely pay for the losses of such battles.</LocalizationPair>
+
+  <!--Empire -->
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment1Title">Motivated Crews</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment1Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment1EffectOverride">-</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment2Title">Motivated Crews</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment2Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment4Title">Motivated Crews</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment4Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
+</Datatable>

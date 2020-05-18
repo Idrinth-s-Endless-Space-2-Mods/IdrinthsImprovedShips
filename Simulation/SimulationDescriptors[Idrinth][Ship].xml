@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Type="ShipLevelUpRule" Name="ShipLevelUpRule">
+        <BinaryModifier Right="25" BinaryOperation="Multiplication" Left="$(Level)" Operation="Addition" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/>
+        <BinaryModifier Right="$(Level)" BinaryOperation="Power" Left="3" Operation="Addition" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/>
+        <BinaryModifier Right="$(Level)" BinaryOperation="Power" Left="1.1" Operation="Multiplication" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/>
+        <Modifier Operation="Multiplication" TargetProperty="NextLevelRequestedExperience" Path="ClassShip,ShipSizeJuggernaut" Value="5"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Type="HeroShipLevelUpRule" Name="HeroShipLevelUpRule">
+        <BinaryModifier Right="25" BinaryOperation="Multiplication" Left="$(Level)" Operation="Addition" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/>
+        <BinaryModifier Right="$(Level)" BinaryOperation="Power" Left="3" Operation="Addition" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/><BinaryModifier Right="$(Level)" BinaryOperation="Power" Left="1.1" Operation="Multiplication" TargetProperty="NextLevelRequestedExperience" Path="ClassShip"/>
+        <BinaryModifier Right="2" BinaryOperation="Division" Left="$(ExperienceBonusFromBattle)" Operation="Multiplication" TargetProperty="NextLevelRequestedExperience" Path="ClassShip,ShipRoleHero"/>
+    </SimulationDescriptor>
+</Datatable>

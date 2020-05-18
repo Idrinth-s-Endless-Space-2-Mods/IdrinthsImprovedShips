@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
+    <!-- ################################################### -->
+    <!-- #######         SCIENCE AND EXPLORATION     ####### -->
+    <!-- ################################################### -->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageScienceAndExploration1" Category="CategoryCuriosity" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite>TechnologyStageScienceAndExploration1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageScienceAndExploration1" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageScienceAndExploration2" Category="CategoryCuriosity" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite>TechnologyStageScienceAndExploration2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageScienceAndExploration2" />
+    </EmpireImprovementDefinition>-->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageScienceAndExploration3" Category="CategoryCuriosity" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite>TechnologyStageScienceAndExploration3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageScienceAndExploration3" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageScienceAndExploration4" Category="CategoryCuriosity" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite>TechnologyStageScienceAndExploration4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageScienceAndExploration4" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageScienceAndExploration5" Category="CategoryCuriosity" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite>TechnologyStageScienceAndExploration5</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageScienceAndExploration5" />
+    </EmpireImprovementDefinition>    
+
+    <!-- ################################################### -->
+    <!-- #######           EMPIRE DEVELOPMENT        ####### -->
+    <!-- ################################################### -->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEmpireDevelopment1" Category="CategoryLaw" SubCategory="SubCategoryPolitics">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEmpireDevelopment1" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEmpireDevelopment2" Category="CategoryLaw" SubCategory="SubCategoryPolitics">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEmpireDevelopment2" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEmpireDevelopment3" Category="CategoryLaw" SubCategory="SubCategoryPolitics">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEmpireDevelopment3" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEmpireDevelopment4" Category="CategoryLaw" SubCategory="SubCategoryPolitics">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEmpireDevelopment4" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEmpireDevelopment5" Category="CategoryLaw" SubCategory="SubCategoryPolitics">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment5</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEmpireDevelopment5" />
+    </EmpireImprovementDefinition>
+
+    <!-- ################################################### -->
+    <!-- #######           ECONOMY AND TRADE         ####### -->
+    <!-- ################################################### -->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEconomyAndTrade1" Category="CategoryRecipeImprovement" SubCategory="CategoryRecipe">
+        <TechnologyPrerequisite>TechnologyStageEconomyAndTrade1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEconomyAndTrade1" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEconomyAndTrade2" Category="CategoryRecipeImprovement" SubCategory="CategoryRecipe">
+        <TechnologyPrerequisite>TechnologyStageEconomyAndTrade2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEconomyAndTrade2" />
+    </EmpireImprovementDefinition>-->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEconomyAndTrade3" Category="CategoryRecipeImprovement" SubCategory="SubCategoryRecipe">
+        <TechnologyPrerequisite>TechnologyStageEconomyAndTrade3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEconomyAndTrade3" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEconomyAndTrade4" Category="CategoryRecipeImprovement" SubCategory="SubCategoryRecipe">
+        <TechnologyPrerequisite>TechnologyStageEconomyAndTrade4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEconomyAndTrade4" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageEconomyAndTrade5" Category="CategoryRecipeImprovement" SubCategory="SubCategoryRecipe">
+        <TechnologyPrerequisite>TechnologyStageEconomyAndTrade5</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageEconomyAndTrade5" />
+    </EmpireImprovementDefinition>
+
+    <!-- ################################################### -->
+    <!-- #######               MILITARY              ####### -->
+    <!-- ################################################### -->
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageMilitary1" Category="CategoryShip" SubCategory="SubCategoryShip">
+        <TechnologyPrerequisite>TechnologyStageMilitary1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageMilitary1" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageMilitary2" Category="CategoryTechnologyMilitary" SubCategory="SubCategoryShip">
+        <PathPrerequisite Flags="Discard">false</PathPrerequisite>
+        <TechnologyPrerequisite>TechnologyStageMilitary2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageMilitary2" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageMilitary3" Category="CategoryTechnologyMilitary" SubCategory="SubCategoryShip">
+        <TechnologyPrerequisite>TechnologyStageMilitary3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageMilitary3" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageMilitary4" Category="CategoryTechnologyMilitary" SubCategory="SubCategoryShip">
+        <TechnologyPrerequisite>TechnologyStageMilitary4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageMilitary4" />
+    </EmpireImprovementDefinition>
+
+    <EmpireImprovementDefinition Name="EmpireImprovementStageMilitary5" Category="CategoryTechnologyMilitary" SubCategory="SubCategoryShip">
+        <TechnologyPrerequisite>TechnologyStageMilitary5</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementStageMilitary5" />
+    </EmpireImprovementDefinition>
+</Datatable>

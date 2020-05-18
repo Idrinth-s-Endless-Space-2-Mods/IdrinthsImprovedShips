@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ShipLevel01" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="0"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel02" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="1"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel03" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="2"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel04" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="3"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel05" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="4"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel06" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="5"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel07" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel08" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel09" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="8"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel10" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="9"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel11" Type="ShipLevel" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.025" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumDamageBonusFromManpower" Operation="Addition" Left="0.005" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Left="25" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.2" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShield" Operation="Addition" Left="10" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="10"/>
+
+        <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+
+        <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+
+        <BinaryModifier TargetProperty="TargetingWeightBonus" Operation="Addition" Left="0.1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+    </SimulationDescriptor>
+</Datatable>

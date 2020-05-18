@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	<SimulationDescriptor Type="AttachedMothership" Name="AttachedMothership">
+        <Modifier Operation="Force" TargetProperty="IsDetached" Path="ClassMothership" Value="0"/>
+        <!-- Added -->
+        <Modifier Operation="Addition" TargetProperty="MaximumHealth" Path="ClassShip/ClassSectionCore" Value="5000"/>
+        <Modifier Operation="Percent" TargetProperty="MaximumHealth" Path="ClassShip/ClassSectionCore" Value="0.25"/>
+        <Modifier Operation="Addition" TargetProperty="MaximumShield" Path="ClassShip/ClassSectionCore" Value="1000"/>
+        <Modifier Operation="Percent" TargetProperty="MaximumShield" Path="ClassShip/ClassSectionCore" Value="0.25"/>
+        <Modifier Operation="Addition" TargetProperty="NetEmpireMoney" Path="../ClassEmpire" Value="5"/>
+        <Modifier Operation="Addition" TargetProperty="NetEmpireEmpirePoint" Path="../ClassEmpire" Value="1"/>
+        <Modifier Operation="Addition" TargetProperty="NetEmpireLifeforce" Path="../ClassEmpire" Value="1"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Type="ClassSectionCore" Name="ClassSectionCoreMothership">
+        <Modifier Operation="Addition" TargetProperty="MaximumHealth" Path="ClassSection" Value="14000"/>
+        <!-- Added -->
+        <Modifier Operation="Addition" TargetProperty="MaximumHealth" Path="ClassSection" Value="6000"/>
+    </SimulationDescriptor>
+</Datatable>

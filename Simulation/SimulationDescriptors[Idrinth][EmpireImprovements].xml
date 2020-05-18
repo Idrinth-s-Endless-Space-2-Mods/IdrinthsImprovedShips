@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment1" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment2" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment3" Type="EmpireImprovementStage">
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentRepublic" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentEmpire" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentDemocracy" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentDictatorship" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentDictatorshipCravers" />
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment4" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment5" Type="EmpireImprovementStage">
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentRepublic" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentEmpire" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="2" Path="ClassEmpire/ClassSenate,GovernmentDemocracy" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentDictatorship" />
+        <Modifier TargetProperty="NumberOfActiveLawSlots" Operation="Addition" Value="1" Path="ClassEmpire/ClassSenate,GovernmentDictatorshipCravers" />
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEmpireDevelopment6" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.01" Operation="Addition" TargetProperty="MaximumDamageBonusFromManpower"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="MaximumManpower" Priority="19"/>
+        <Modifier Path="ClassEmpire//ClassShip" Value="0.025" Operation="Percent" TargetProperty="MaximumManpower" Priority="19"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration1" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration2" Type="EmpireImprovementStage">
+        <Modifier TargetProperty="BaseWormholeSpeed" Operation="Addition" Value="1" Path="ClassEmpire" />
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration3" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration4" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration5" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration6" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementStageEconomyAndTrade1" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="1" Operation="Addition" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+        <Modifier Path="ClassEmpire//ClassGroup" Value="0.1" Operation="Percent" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEconomyAndTrade2" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="2" Operation="Addition" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+        <Modifier Path="ClassEmpire//ClassGroup" Value="0.1" Operation="Percent" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEconomyAndTrade3" Type="EmpireImprovementStage">
+        <!-- Only used to feedback the additional population slots for Vodyani on system upgrade - no GP effect -->
+        <Modifier TargetProperty="HasMothership" Operation="Addition" Value="1" Path="ClassEmpire,AffinityGameplayVampirilis" TooltipOverride="%EmpireImprovementStageEconomyAndTradeVampirilisEffectOverride" TooltipHiddenIfPathInvalid="true"/>
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="3" Operation="Addition" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+        <Modifier Path="ClassEmpire//ClassGroup" Value="0.1" Operation="Percent" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEconomyAndTrade4" Type="EmpireImprovementStage">
+        <Modifier TargetProperty="HasMothership" Operation="Addition" Value="1" Path="ClassEmpire,AffinityGameplayVampirilis" TooltipOverride="%EmpireImprovementStageEconomyAndTradeVampirilisEffectOverride" TooltipHiddenIfPathInvalid="true"/>
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="4" Operation="Addition" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+        <Modifier Path="ClassEmpire//ClassGroup" Value="0.1" Operation="Percent" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageEconomyAndTrade5" Type="EmpireImprovementStage">
+        <Modifier TargetProperty="HasMothership" Operation="Addition" Value="1" Path="ClassEmpire,AffinityGameplayVampirilis" TooltipOverride="%EmpireImprovementStageEconomyAndTradeVampirilisEffectOverride" TooltipHiddenIfPathInvalid="true"/>
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip" Value="5" Operation="Addition" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+        <Modifier Path="ClassEmpire//ClassGroup" Value="0.1" Operation="Percent" TargetProperty="AdditionalOpponentRecyclingDustPerCP"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementStageMilitary1" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip/ClassSectionCore" Value="50" Operation="Addition" TargetProperty="MaximumHealth"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageMilitary2" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip/ClassSectionCore" Value="100" Operation="Addition" TargetProperty="MaximumHealth"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageMilitary3" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip/ClassSectionCore" Value="150" Operation="Addition" TargetProperty="MaximumHealth"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageMilitary4" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip/ClassSectionCore" Value="250" Operation="Addition" TargetProperty="MaximumHealth"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementStageMilitary5" Type="EmpireImprovementStage">
+        <!-- Added -->
+        <Modifier Path="ClassEmpire//ClassShip/ClassSectionCore" Value="400" Operation="Addition" TargetProperty="MaximumHealth"/>
+    </SimulationDescriptor>
+</Datatable>
