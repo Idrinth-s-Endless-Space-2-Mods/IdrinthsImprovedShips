@@ -52,7 +52,7 @@
         <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="EmpireImprovementStageScienceAndExploration2" Type="EmpireImprovementStage">
-        <Modifier TargetProperty="BaseWormholeSpeed" Operation="Addition" Value="1" Path="ClassEmpire" />
+        <!-- <Modifier TargetProperty="BaseWormholeSpeed" Operation="Addition" Value="1" Path="ClassEmpire" />-->
         <!-- Added -->
         <Modifier Path="ClassEmpire" Operation="Percent" TargetProperty="MaximumCommandPoints" Value="0.05"/>
     </SimulationDescriptor>
