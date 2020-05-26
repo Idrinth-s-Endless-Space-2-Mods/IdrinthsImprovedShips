@@ -2,10 +2,10 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
     <SimulationDescriptor Name="ModuleIncreasedSpeedQuest" Type="ModuleIncreasedSpeedQuest">
         <Property Name="MaximumMovement"/>
-        <Modifier TargetProperty="MaximumMovement"                 Operation="Percent"    Value="$(MaximumMovement)"                   Path="../ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"                 Operation="Addition"    Value="$(MaximumMovement)"                   Path="../ClassShip"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="ModuleIncreasedSpeedQuest01" Type="ModuleIncreasedSpeedQuest">
-        <Modifier TargetProperty="MaximumMovement"                  Operation="Addition"    Value="0.5"       Path="ModuleIncreasedSpeedQuest"/>
+        <Modifier TargetProperty="MaximumMovement"                  Operation="Addition"    Value="6"       Path="ModuleIncreasedSpeedQuest"/>
     </SimulationDescriptor>
 </Datatable>
