@@ -11,12 +11,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="0"/>
@@ -35,12 +35,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="1"/>
@@ -59,12 +59,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="2"/>
@@ -83,12 +83,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="3"/>
@@ -107,12 +107,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="4"/>
@@ -131,12 +131,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="5"/>
@@ -155,12 +155,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="6"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="6"/>
@@ -179,12 +179,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip/ClassSectionCore" BinaryOperation="Multiplication" Right="7"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="7"/>
@@ -203,12 +203,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="8"/>
@@ -227,12 +227,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="9"/>
@@ -251,12 +251,12 @@
 
         <BinaryModifier TargetProperty="Evasion" Operation="Addition" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Addition" Left="-0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
-        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="ShieldReloadPerPhase" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
 
-        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
-        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Value="1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
-        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Value="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="MaximumShipManpower" Priority="19" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
+        <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="0.01" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
 
         <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Addition" Left="2" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
         <BinaryModifier TargetProperty="ShieldAbsorption" Operation="Addition" Left="1" Path="ClassShip" BinaryOperation="Multiplication" Right="10"/>
