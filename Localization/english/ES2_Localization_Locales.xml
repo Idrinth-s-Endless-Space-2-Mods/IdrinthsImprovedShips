@@ -9,8 +9,10 @@
 
   <!--Economy -->
   <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade1Title">Improved Scavenging</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade1EffectOverride">-</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade1Description">Improvements in scavenging technologies may even yield some gains from the most devastating battle, even if they can't completely pay for the losses of such battles.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade2Title">Improved Scavenging</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade2EffectOverride">-</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade2Description">Improvements in scavenging technologies may even yield some gains from the most devastating battle, even if they can't completely pay for the losses of such battles.</LocalizationPair>
 
   <!--Empire -->
@@ -18,7 +20,13 @@
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment1Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment1EffectOverride">-</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment2Title">Motivated Crews</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment2EffectOverride">-</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment2Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment4Title">Motivated Crews</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementStageEmpireDevelopment4Description">More motivated crews try to push the empire's borders even further still.</LocalizationPair>
+
+  <!-- Military -->
+  <LocalizationPair Name="%EmpireImprovementStageMilitary1Title">Trained Shipwrights</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageMilitary1EffectOverride">-</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementStageMilitary2EffectOverride">-</LocalizationPair>
 </Datatable>

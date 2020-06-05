@@ -12,27 +12,27 @@
 
         <Property Name="MaximumCommandPoints" BaseValue="0" RoundingFunction="Floor"/><!-- added rounding -->
         <!-- speed bonuses-->
-        
+
         <Property Name="WarpSpeed"            BaseValue="0" Composition="Minimum"/> <!-- in parsec per movement point. -->
         <Property Name="WormholeSpeed"        BaseValue="0" Composition="Minimum"/> <!-- in wormhole per move. -->
         <Property Name="FreeMovementSpeed"    BaseValue="0" Composition="Minimum"/> <!-- in parsec per movement point. -->
         <Property Name="PortalMaximumCost"    BaseValue="0" Composition="Maximum"/> <!-- in movement points per move. -->
-        
+
         <Property Name="CannotMove"             BaseValue="0" MaxValue="1"/>
-        
+
         <Property Name="MaximumMovement"      Composition="Minimum" />
-		<Property Name="ShipMaximumMovement"	BaseValue="0"/>
+        <Property Name="ShipMaximumMovement"	BaseValue="0"/>
         <Property Name="Movement"             BaseValue="0" Composition="Minimum"/>
         <Property Name="VisionRange"          BaseValue="0" Composition="Maximum"/>
         <Property Name="FogOfWarRange"        BaseValue="0" Composition="Maximum"/>   <!-- Final fog of war range will be Max(VisionRange, FogOfWarRange) -->
-       
-        
+
+
         <Property Name="ExpeditionPower" BaseValue="0" />
         <Property Name="DetectionLevel" BaseValue="0"  />
 
         <Property Name="NetActionPoint"         BaseValue="0" Composition="Minimum"/>
 
-        
+
         <!-- Invasion -->
         <Property Name="MaximumShipManpower" 		        BaseValue="0" Composition="Sum"/>
         <Property Name="ShipManpowerStock"                  BaseValue="0" Composition="Sum"/>
@@ -40,7 +40,7 @@
 
         <Property Name="AdditionalGroundBattleManpowerLimit" />
 
-        
+
         <!-- Probes -->
         <Property Name="MaximumShipProbeStock"  Composition="Sum"/>
         <Property Name="MaximumShipMiningProbeStock"  Composition="Sum"/>
@@ -58,12 +58,12 @@
         <Property Name="HasEffectsOnOrbit" MaxValue="1"/>
         <Property Name="HasBonusesFromDestroyedPlanets" MaxValue="1"/>
         <Property Name="HasBonusesFromDepletion" MaxValue="1"/>
-        
+
         <!-- Honor actions -->
         <Property Name="HasHonorFleetBonuses" MaxValue="1"/>
         <Property Name="HasVisibleHonorAction" MaxValue="1"/>
         <Property Name="ShipIsKamikaze" MaxValue="1" Composition="Sum"/>
-        
+
         <!-- Obliterator stuff -->
         <Property Name="ObliteratorProjectileSpeed" BaseValue="14"/>
 
@@ -71,7 +71,7 @@
         <Property Name="TechnologyCostQuadrantEconomyAndTradeMultiplierFromSpecialNodes"		MinValue="Negative" MaxValue="0.75"/>
         <Property Name="TechnologyCostQuadrantEmpireDevelopmentMultiplierFromSpecialNodes"		MinValue="Negative" MaxValue="0.75"/>
         <Property Name="TechnologyCostQuadrantMilitaryMultiplierFromSpecialNodes"				MinValue="Negative" MaxValue="0.75"/>
-        
+
         <Property Name="NetEmpireMoneyOnSpecialNodes"/>
         <Property Name="NetEmpireResearchOnSpecialNodes"/>
         <Property Name="NetEmpireEmpirePointOnSpecialNodes"/>
@@ -83,7 +83,7 @@
         <Property Name="NetStrategic4FromSpecialNodes"/>
         <Property Name="NetStrategic5FromSpecialNodes"/>
         <Property Name="NetStrategic6FromSpecialNodes"/>
-        
+
         <Property Name="SpecialNodeEffectMultiplier"/>
 
         <Property Name="DestroyedPlanetsInOrbit" IsSealed="true"/>
@@ -93,14 +93,14 @@
         <Property Name="DepletionPointsInOrbit" IsSealed="true"/>
         <Property Name="NetEmpireResearch"/>
         <Property Name="EmpireResearchPerDepletionPoint"/>
-        
+
 
         <!--!-Combat modifiers -->
-		<Property Name="FleetHullPlatingAbsorption"			BaseValue="0"/> <!--FLAT BONUS-->
-		<Property Name="FleetShieldAbsorption"				BaseValue="0"/> <!--FLAT BONUS-->
-		<Property Name="ShipHullPlatingAbsorptionPercent"   BaseValue="0" MinValue="-0.95"/>
-		<Property Name="ShipShieldAbsorptionPercent"		BaseValue="0" MinValue="-0.95"/>
-		
+        <Property Name="FleetHullPlatingAbsorption"			BaseValue="0"/> <!--FLAT BONUS-->
+        <Property Name="FleetShieldAbsorption"				BaseValue="0"/> <!--FLAT BONUS-->
+        <Property Name="ShipHullPlatingAbsorptionPercent"   BaseValue="0" MinValue="-0.95"/>
+        <Property Name="ShipShieldAbsorptionPercent"		BaseValue="0" MinValue="-0.95"/>
+
         <Property Name="HullDmgReductionShort"         BaseValue="0" MinValue="-0.95"/>
         <Property Name="HullDmgReductionMedium"        BaseValue="0" MinValue="-0.95"/>
         <Property Name="HullDmgReductionLong"          BaseValue="0" MinValue="-0.95"/>
@@ -111,22 +111,22 @@
         <Property Name="MissileDmgReduction"           BaseValue="0" MinValue="-0.95"/>
         <Property Name="BeamDmgReduction"              BaseValue="0" MinValue="-0.95"/>
         <Property Name="LaserDmgReduction"             BaseValue="0" MinValue="-0.95"/>
-        
+
         <Property Name="FleetMaximumHealth"            BaseValue="0" MinValue="-0.95"/>
         <Property Name="FleetMaximumShield"            BaseValue="0" MinValue="-0.95"/>
-		<Property Name="HealthRegenerationRatio"			BaseValue="0"/>
+        <Property Name="HealthRegenerationRatio"			BaseValue="0"/>
         <Property Name="Evasion"                       BaseValue="0" MaxValue="0.95"/>
-        
+
         <Property Name="ShipDamage"                        BaseValue="0" MinValue="-0.95"/>
-		<Property Name="ShipDamageProjectile"              BaseValue="0" MinValue="-0.95"/>
+        <Property Name="ShipDamageProjectile"              BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageKinetic"                 BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageMissile"                 BaseValue="0" MinValue="-0.95"/>
-		<Property Name="ShipDamageEnergy"				   BaseValue="0" MinValue="-0.95"/>
+        <Property Name="ShipDamageEnergy"				   BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageLaser"                   BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageBeam"                    BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipCriticalHitChance"             BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipShieldPenetrationFactor"        BaseValue="0" MinValue="-0.95"/>
-		<Property Name="ShipHullPlatingPenetrationFactor"		   BaseValue="0" MinValue="-0.95"/>
+        <Property Name="ShipHullPlatingPenetrationFactor"		   BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageShort"                   BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageMedium"                  BaseValue="0" MinValue="-0.95"/>
         <Property Name="ShipDamageLong"                    BaseValue="0" MinValue="-0.95"/>
@@ -139,15 +139,15 @@
         <Property Name="TradingRouteBlockadePower"     BaseValue="0" MaxValue="1"/>
 
         <Property Name="ScaleMultiplier"                BaseValue="1"/>
-		
-		<Property Name="RootingIncreasePerTurn" 		Composition="Sum" />
+
+        <Property Name="RootingIncreasePerTurn" 		Composition="Sum" />
 
         <Property Name="HonorZoneRadius" BaseValue="0" MinValue="0"/>
         <Property Name="CanUseHonorZone" BaseValue="0"/>
         <Property Name="MaximumHonorZoneRadius" Composition="Maximum"/>
 
         <Property Name="CannotFightUnlessDetached"  MaxValue="1"/>
-        
+
         <Property Name="VisionStrength"                 BaseValue="0" Composition="Maximum"/>
         <Property Name="AntiVisionStrength"             BaseValue="0"/>
         <Property Name="AntiVisionStrengthForModule"    BaseValue="0" Composition="Maximum"/>
@@ -158,7 +158,7 @@
 
         <Property Name="InfluenceBonusFromFleet" BaseValue="0"/>
         <Property Name="ScienceBonusFromFleet"   BaseValue="0"/>
-        
+
         <!--Hero-related-->
         <Property Name="AssignedHero"                   BaseValue="0" MinValue="0" Composition="Sum"/>
 
@@ -173,9 +173,9 @@
         <BinaryModifier TargetProperty="SiegePower" Operation="Percent" Left="$(AssignedHero)" BinaryOperation="Multiplication" Right="0.2"/>
 
         <Modifier TargetProperty="HullPlatingAbsorption"			Operation="Addition"	Value="$(FleetHullPlatingAbsorption)"		    Path="ClassGarrisonFleet/ClassShip"  />
-		<Modifier TargetProperty="HullPlatingAbsorptionPercent"     Operation="Addition"	Value="$(ShipHullPlatingAbsorptionPercent)"	    Path="ClassGarrisonFleet/ClassShip"  />
-		<Modifier TargetProperty="ShieldAbsorption"					Operation="Addition"	Value="$(FleetShieldAbsorption)"			    Path="ClassGarrisonFleet/ClassShip"  />
-		<Modifier TargetProperty="ShieldAbsorptionPercent"			Operation="Addition"	Value="$(ShipShieldAbsorptionPercent)"		    Path="ClassGarrisonFleet/ClassShip"  />
+        <Modifier TargetProperty="HullPlatingAbsorptionPercent"     Operation="Addition"	Value="$(ShipHullPlatingAbsorptionPercent)"	    Path="ClassGarrisonFleet/ClassShip"  />
+        <Modifier TargetProperty="ShieldAbsorption"					Operation="Addition"	Value="$(FleetShieldAbsorption)"			    Path="ClassGarrisonFleet/ClassShip"  />
+        <Modifier TargetProperty="ShieldAbsorptionPercent"			Operation="Addition"	Value="$(ShipShieldAbsorptionPercent)"		    Path="ClassGarrisonFleet/ClassShip"  />
 
         <Modifier TargetProperty="HullDmgReductionShort"        Operation="Addition" Value="$(HullDmgReductionShort)"      Path="ClassGarrisonFleet/ClassShip"  />
         <Modifier TargetProperty="HullDmgReductionMedium"       Operation="Addition" Value="$(HullDmgReductionMedium)"     Path="ClassGarrisonFleet/ClassShip" />
@@ -186,23 +186,23 @@
         <Modifier TargetProperty="MissileDmgReduction"          Operation="Addition" Value="$(MissileDmgReduction)"        Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="BeamDmgReduction"             Operation="Addition" Value="$(BeamDmgReduction)"           Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="LaserDmgReduction"            Operation="Addition" Value="$(LaserDmgReduction)"          Path="ClassGarrisonFleet/ClassShip" />
-                                                                                                                                     
+
         <Modifier TargetProperty="MaximumHealth"            Operation="Percent" Value="$(FleetMaximumHealth)"              Path="ClassGarrisonFleet/ClassShip/ClassSection,ClassSectionCore" />
         <Modifier TargetProperty="MaximumShield"                Operation="Percent"  Value="$(FleetMaximumShield)"              Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="Evasion"                      Operation="Addition" Value="$(Evasion)"                    Path="ClassGarrisonFleet/ClassShip" />
         <!-- Addition -->
         <BinaryModifier TargetProperty="Evasion" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(ShipCount)" Path="ClassGarrisonFleet/ClassShip"/>
-                                                                                                                                      
+
         <Modifier TargetProperty="Damage"                   Operation="Addition" Value="$(ShipDamage)"                     Path="ClassGarrisonFleet/ClassShip" />
-		<Modifier TargetProperty="DamageProjectile"         Operation="Addition" Value="$(ShipDamageProjectile)"           Path="ClassGarrisonFleet/ClassShip" />
-		<Modifier TargetProperty="DamageEnergy"             Operation="Addition" Value="$(ShipDamageEnergy)"			   Path="ClassGarrisonFleet/ClassShip" />
+        <Modifier TargetProperty="DamageProjectile"         Operation="Addition" Value="$(ShipDamageProjectile)"           Path="ClassGarrisonFleet/ClassShip" />
+        <Modifier TargetProperty="DamageEnergy"             Operation="Addition" Value="$(ShipDamageEnergy)"			   Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageKinetic"            Operation="Addition" Value="$(ShipDamageKinetic)"              Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageMissile"            Operation="Addition" Value="$(ShipDamageMissile)"              Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageLaser"              Operation="Addition" Value="$(ShipDamageLaser)"                Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageBeam"               Operation="Addition" Value="$(ShipDamageBeam)"                 Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="CriticalHitChance"        Operation="Addition" Value="$(ShipCriticalHitChance)"          Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="ShieldPenetrationFactor"			Operation="Addition"		Value="$(ShipShieldPenetrationFactor)"			Path="ClassGarrisonFleet/ClassShip" />
-		<Modifier TargetProperty="HullPlatingPenetrationFactor"		Operation="Addition"		Value="$(ShipHullPlatingPenetrationFactor)"		Path="ClassGarrisonFleet/ClassShip" />
+        <Modifier TargetProperty="HullPlatingPenetrationFactor"		Operation="Addition"		Value="$(ShipHullPlatingPenetrationFactor)"		Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageShort"              Operation="Addition" Value="$(ShipDamageShort)"                Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageMedium"             Operation="Addition" Value="$(ShipDamageMedium)"               Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="DamageLong"               Operation="Addition" Value="$(ShipDamageLong)"                 Path="ClassGarrisonFleet/ClassShip" />
@@ -212,11 +212,11 @@
         <Modifier TargetProperty="DamageCore"               Operation="Addition" Value="$(ShipDamageCore)"                 Path="ClassGarrisonFleet/ClassShip" />
         <Modifier TargetProperty="Accuracy"                 Operation="Addition" Value="$(ShipAccuracy)"                   Path="ClassGarrisonFleet/ClassShip" />
 
-		<Modifier TargetProperty="MaximumMovement"			Operation="Addition"	Value="$(ShipMaximumMovement)"					Path="ClassGarrisonFleet/ClassShip"/>
-		<Modifier TargetProperty="HealthRegenerationRatio"	Operation="Addition"	Value="$(HealthRegenerationRatio)"				Path="ClassGarrisonFleet/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"			Operation="Addition"	Value="$(ShipMaximumMovement)"					Path="ClassGarrisonFleet/ClassShip"/>
+        <Modifier TargetProperty="HealthRegenerationRatio"	Operation="Addition"	Value="$(HealthRegenerationRatio)"				Path="ClassGarrisonFleet/ClassShip"/>
 
         <Modifier TargetProperty="FleetsCount"		Operation="Addition"	Value="1"		    Path="../ClassEmpire"  />
-        
+
         <BinaryModifier TargetProperty="HonorZoneRadius" Operation="Addition" BinaryOperation="Multiplication" Left="$(CanUseHonorZone)" Right="$(MaximumHonorZoneRadius)"/>
 
         <BinaryModifier TargetProperty="NetEmpireLifeforce" Operation="Addition" Left="$(EmpireLifeforcePerDestroyedPlanets)" BinaryOperation="Multiplication" Right="$(DestroyedPlanetsInOrbit)"/>
