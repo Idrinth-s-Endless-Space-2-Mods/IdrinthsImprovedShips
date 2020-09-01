@@ -6,6 +6,6 @@
         <Modifier Path="../ClassGarrison/ClassShip" Value="0.01" Operation="Addition" TargetProperty="RepairAfterBattle"/>
         <Modifier Path="../ClassGarrison/ClassShip" Value="0.01" Operation="Addition" TargetProperty="RepairAfterPhase"/>
         <Modifier Path="../ClassShip" Value="0.2" Operation="Percent" TargetProperty="DefensiveMilitaryPower"/>
-        <Modifier Priority="1" Path="../ClassGarrison/ClassShip" Value="0.1" Operation="Percent" TargetProperty="GlobalSpeedBonus"/>
+        <Modifier Path="../ClassGarrison/ClassShip" Value="0.1" Operation="Percent" TargetProperty="GlobalSpeedBonus"/>
     </SimulationDescriptor>
 </Datatable>

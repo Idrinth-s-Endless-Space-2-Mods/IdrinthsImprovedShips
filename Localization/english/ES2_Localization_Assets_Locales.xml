@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocalizationPair Name="%HullSmall01SophonsTitle">[attacker]Kilo-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02SophonsTitle">[support]Deka-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03SophonsTitle">[colonizer]Hecto-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04SophonsTitle">[explorer]Deci-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05SophonsTitle">[lifeforce]Hecto-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06SophonsTitle">[unfallen]Hecto-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01SophonsTitle">[warpoint]Giga-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02SophonsTitle">[defensivemilitarypower]Peta-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00SophonsTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01SophonsTitle">[carrier]Yotta-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01CraversTitle">[attacker]Soldier-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02CraversTitle">[support]Worker-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03CraversTitle">[colonizer]Drone-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04CraversTitle">[explorer]Forager-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05CraversTitle">[lifeforce]Drone-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06CraversTitle">[unfallen]Drone-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01CraversTitle">[warpoint]Bishop-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02CraversTitle">[defensivemilitarypower]Guard-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00CraversTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01CraversTitle">[carrier]Queen-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01VampirilisTitle">[attacker]Sluaym-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VampirilisTitle">[support]Toisam-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VampirilisTitle">[colonizer]Maium-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VampirilisTitle">[explorer]Goaym-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VampirilisTitle">[lifeforce]Nayium-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VampirilisTitle">[unfallen]Maium-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VampirilisTitle">[warpoint]Jaium-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VampirilisTitle">[defensivemilitarypower]Letum-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00VampirilisTitle">[mothership]Halaym-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VampirilisTitle">[carrier]Ortaam-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01VenetiansTitle">[attacker]Velm-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VenetiansTitle">[support]Drev-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VenetiansTitle">[colonizer]Ordara-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VenetiansTitle">[explorer]Arrakyo-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VenetiansTitle">[lifeforce]Ordara-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VenetiansTitle">[unfallen]Ordara-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VenetiansTitle">[warpoint]Omokar-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VenetiansTitle">[defensivemilitarypower]Lancellum-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00VenetiansTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VenetiansTitle">[carrier]Meos-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01UnfallenTitle">[attacker]Thorn-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02UnfallenTitle">[support]Loam-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03UnfallenTitle">[colonizer]Pod-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04UnfallenTitle">[explorer]Heart-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05UnfallenTitle">[lifeforce]Pod-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06UnfallenTitle">[unfallen]Vine-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01UnfallenTitle">[warpoint]Fire-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02UnfallenTitle">[defensivemilitarypower]Light-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00UnfallenTitle">[mothership]Grove-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01UnfallenTitle">[carrier]Forest-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01TerransTitle">[attacker]Egezrey-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TerransTitle">[support]Yeranef-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TerransTitle">[colonizer]Karga-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TerransTitle">[explorer]Zolya-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TerransTitle">[lifeforce]Karga-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TerransTitle">[unfallen]Karga-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TerransTitle">[warpoint]Sopron-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TerransTitle">[defensivemilitarypower]Sheredyn-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00TerransTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TerransTitle">[carrier]Zelevas-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01HoratioTitle">[attacker]Marchio-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02HoratioTitle">[support]Baro-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03HoratioTitle">[colonizer]Cresce-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04HoratioTitle">[explorer]Coms-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05HoratioTitle">[lifeforce]Cresce-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06HoratioTitle">[unfallen]Cresce-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01HoratioTitle">[warpoint]Dux-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02HoratioTitle">[defensivemilitarypower]Archidux-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00HoratioTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01HoratioTitle">[carrier]Imperator-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01TimeLordsTitle">[attacker]Natural-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TimeLordsTitle">[support]Rational-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TimeLordsTitle">[colonizer]Irrational-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TimeLordsTitle">[explorer]Imaginary-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TimeLordsTitle">[lifeforce]Irrational-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TimeLordsTitle">[unfallen]Irrational-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TimeLordsTitle">[warpoint]Triangular-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TimeLordsTitle">[defensivemilitarypower]Tetrahedral-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00TimeLordsTitle">[mothership]Mothership</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TimeLordsTitle">[carrier]Prime-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01MinorFactionInsectoidTitle">[attacker]Jurh-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionInsectoidTitle">[warpoint]Kharkhara-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionPiratesTitle">[attacker]Raider-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionPiratesTitle">[warpoint]Pillager-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionPrimitiveTitle">[attacker]Pioneer-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionPrimitiveTitle">[warpoint]Orbiter-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionAdvancedTitle">[attacker]Stilio-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionAdvancedTitle">[warpoint]Scorpio-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01MajorHisshosTitle">[attacker]Claw-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02MajorHisshosTitle">[support]Hover-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03MajorHisshosTitle">[colonizer]Roost-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04MajorHisshosTitle">[explorer]Glide-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05MajorHisshosTitle">[lifeforce]Sharpbeak-Class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06MajorHisshosTitle">[unfallen]Weaver-Class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MajorHisshosTitle">[warpoint]Strike-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02MajorHisshosTitle">[defensivemilitarypower]Climb-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01MajorHisshosTitle">[carrier]Dive-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01UmbralChoirTitle">[attacker]Stanza-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02UmbralChoirTitle">[support]Madrigal-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03UmbralChoirTitle">[colonizer]Cantata-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04UmbralChoirTitle">[explorer]Sonata-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05UmbralChoirTitle">[lifeforce]Chamber-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06UmbralChoirTitle">[unfallen]Opera-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01UmbralChoirTitle">[warpoint]Hymn-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02UmbralChoirTitle">[defensivemilitarypower]Epic-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01UmbralChoirTitle">[carrier]Cycle-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01TemplarsTitle">[attacker]Incantation-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TemplarsTitle">[support]Invitatory-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TemplarsTitle">[colonizer]Recitation-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TemplarsTitle">[explorer]Salutation-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TemplarsTitle">[lifeforce]Canticle-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TemplarsTitle">[unfallen]Reading-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TemplarsTitle">[warpoint]Prostration-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TemplarsTitle">[defensivemilitarypower]Psalm-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TemplarsTitle">[carrier]Invocation-class</LocalizationPair>
+
+  <LocalizationPair Name="%HullSmall01VaultersTitle">[attacker]Arrow-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VaultersTitle">[support]Bolt-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VaultersTitle">[colonizer]Barrel-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VaultersTitle">[explorer]Dart-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VaultersTitle">[lifeforce]Barrel-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VaultersTitle">[unfallen]Barrel-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VaultersTitle">[warpoint]Quarrel-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VaultersTitle">[defensivemilitarypower]Shot-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VaultersTitle">[carrier]Spear-class</LocalizationPair>
+  <LocalizationPair Name="%HullMedium03VaultersTitle">[supercolonizer]Argosy</LocalizationPair>
+</Datatable>
